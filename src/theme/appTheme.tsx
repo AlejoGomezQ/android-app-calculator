@@ -17,6 +17,7 @@ export const styles = StyleSheet.create({
   },
   result: {
     textAlign: 'right',
+    marginBottom: 10,
     color: '#ffffff',
     fontSize: 60,
   },
