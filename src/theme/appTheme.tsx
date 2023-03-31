@@ -1,14 +1,11 @@
 import {StyleSheet} from 'react-native';
 
 export const styles = StyleSheet.create({
-  bg: {
-    flex: 1,
-    backgroundColor: '#000000',
-  },
   calculatorContainer: {
     flex: 1,
     justifyContent: 'flex-end',
     paddingHorizontal: 20,
+    backgroundColor: '#000000',
   },
   resultMemory: {
     textAlign: 'right',

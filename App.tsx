@@ -1,17 +1,17 @@
+import 'react-native-gesture-handler';
+
 // React Native Components
-import {SafeAreaView, StatusBar} from 'react-native';
+import {NavigationContainer} from '@react-navigation/native';
+import {StatusBar} from 'react-native';
 
 // Screens
-import {CalculatorScreen} from './src/screens/CalculatorScreen';
-
-// Global Style
-import {styles} from './src/theme/appTheme';
+import {NavigationStack} from './src/navigation/NavigationStack';
 
 export const App = () => {
   return (
-    <SafeAreaView style={styles.bg}>
+    <NavigationContainer>
       <StatusBar backgroundColor="#000000" />
-      <CalculatorScreen />
-    </SafeAreaView>
+      <NavigationStack />
+    </NavigationContainer>
   );
 };
