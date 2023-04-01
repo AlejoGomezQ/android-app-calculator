@@ -1,5 +1,5 @@
 import {createStackNavigator} from '@react-navigation/stack';
-import {AboutMe, CalculatorScreen} from '../screens';
+import {AboutMeScreen, CalculatorScreen} from '../screens';
 
 const Stack = createStackNavigator();
 
@@ -15,9 +15,9 @@ export const NavigationStack = () => {
         component={CalculatorScreen}
       />
       <Stack.Screen
-        name="AboutMe"
+        name="AboutMeScreen"
         options={{title: 'Acerca de mi'}}
-        component={AboutMe}
+        component={AboutMeScreen}
       />
     </Stack.Navigator>
   );

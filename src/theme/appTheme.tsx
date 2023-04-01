@@ -24,4 +24,23 @@ export const styles = StyleSheet.create({
     marginBottom: 18,
     paddingHorizontal: 10,
   },
+
+  //About Screen
+  aboutMeScreen: {
+    flex: 1,
+    alignItems: 'center',
+    backgroundColor: '#000000',
+  },
+  infoContainer: {
+    justifyContent: 'center',
+    paddingTop: 60,
+  },
+  aboutMeText: {
+    textAlign: 'center',
+    color: '#ffffff',
+    fontSize: 18,
+  },
+  boldText: {
+    fontWeight: 'bold',
+  },
 });
